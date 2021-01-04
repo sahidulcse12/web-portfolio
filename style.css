@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-area{
+    background-color: rgb(109, 124, 124);
+    padding: 10px 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header-left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.header-right{
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.header-left img{
+    color: crimson;
+}
+
+.menu-area ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area ul li{
+    display: inline;
+    margin: 0 24px;
+}
