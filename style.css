@@ -22,6 +22,30 @@ p{
     text-align: justify;
 }
 
+.menu-area ul{
+    list-style: none;
+}
+
+.menu-area ul li{
+    display: inline;
+    padding-right: 30px;
+
+}
+
+.menu-area ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+
 .center{
     text-align: center;
     padding-bottom: 50px;
@@ -57,16 +81,18 @@ section{
 .link{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon,tomato);
-    padding: 5px 10px;
+    padding: 7px 12px;
     border-radius: 5px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    padding-top: 150px;
 }
 
 .single-experience{
@@ -76,6 +102,13 @@ section{
     padding-right: 10px;
     border-radius: 5px;
     background-color: white;
+}
+
+#dream-shadow{
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: bisque;
 }
 
 .experience{
@@ -100,4 +133,136 @@ section{
 .last{
     text-align: center;
     color: blueviolet;
+}
+
+.bg-picture{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bg-picture img{
+    width: 100%;
+}
+
+#dekhi{
+    padding-bottom: 0;
+    padding-top: 100px;
+}
+
+.heading{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    font-size: 50px;
+    color: white;
+}
+
+
+.after-heading{
+    position: absolute;
+    padding: 5px 10px;
+    top: 35%;
+    right: 5%;
+    font-size: 40px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: tomato;
+}
+
+.pre-demo{
+    text-align: center;
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+.demo{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin: 0 1%;
+    padding: 5px 5px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    background-color: bisque;
+}
+
+.demo img{
+    width: 100%;
+}
+
+#color{
+    background-color: #81ecec;
+}
+
+#reg{
+    max-width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    padding: 19px;
+    color: #ffffff;
+    margin-left: 150px;
+}
+
+.sign{
+    text-align: center;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin:5px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    margin-top: 30px;
+    opacity: .7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background: #60adde;
+}
+
+input[type=submit]:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+
+.connect{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: violet;
+}
+
+.icon{
+    list-style: none;
+    text-align: center;
+}
+
+.icon li{
+    display: inline;
+    padding: 0 10px;
+}
+.icon li img{
+    height: 40px;
+    width: 40px;
 }
